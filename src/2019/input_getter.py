@@ -1,6 +1,6 @@
 from aocd.models import Puzzle
 
-puzzle = Puzzle(year=2019, day=1)
+puzzle = Puzzle(year=2019, day=2)
 
 print(puzzle.input_data[:20])
 
