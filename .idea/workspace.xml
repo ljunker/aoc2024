@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86cc698b-d3d2-46a9-bc6a-4f877ea3757b" name="Changes" comment="vorbereitung auf aoc2024">
-      <change afterPath="$PROJECT_DIR$/src/2019/day01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/2019/day02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/2019/input_getter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="86cc698b-d3d2-46a9-bc6a-4f877ea3757b" name="Changes" comment="übung 2019">
+      <change afterPath="$PROJECT_DIR$/src/2019/IntComp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2019/day03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/2019/day_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/2024/input_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/2024/input_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2019/day02.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/2019/day02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2019/input_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/2019/input_getter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     "Python.day01.executor": "Run",
     "Python.day01_2019.executor": "Debug",
     "Python.day02.executor": "Run",
+    "Python.day03.executor": "Debug",
     "Python.input_getter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -68,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/2024" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day02">
+  <component name="RunManager" selected="Python.day03">
     <configuration name="day01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aoc" />
       <option name="ENV_FILES" value="" />
@@ -135,12 +137,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="day03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="aoc" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/2019" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/2019/day03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.day02" />
+      <item itemvalue="Python.day03" />
       <item itemvalue="Python.day01_2019" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day03" />
         <item itemvalue="Python.day02" />
         <item itemvalue="Python.day01_2019" />
         <item itemvalue="Python.day01" />
@@ -164,12 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729347673126</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="übung 2019">
+      <option name="closed" value="true" />
+      <created>1729362451597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729362451598</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vorbereitung auf aoc2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="vorbereitung auf aoc2024" />
+    <MESSAGE value="übung 2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="übung 2019" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -181,8 +216,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/2019/day02.py</url>
-          <line>37</line>
+          <line>7</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/2019/day02.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/2019/day03.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
