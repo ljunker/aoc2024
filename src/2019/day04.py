@@ -51,6 +51,7 @@ def digits_only_two_groups(digits):
         return True
     return False
 
+
 def part2():
     count = 0
     for i in range(240298, 785956):
